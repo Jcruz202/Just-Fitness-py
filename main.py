@@ -46,7 +46,7 @@ def getInfo():
         yesOrNo = input("Type Y for yes or N for no: ")
     elif bmi >= 30:
         print("You're obese")
-        print("You're a fatass lose some weight, here's a food diet and a workout plan to lose weight")
+        print("You're fatass need to lose some weight, here's a food diet and a workout plan to lose weight")
 
 def getBMI(heightFt, heightIn, weight):
     heightTotal = (heightFt * 12) + heightIn
